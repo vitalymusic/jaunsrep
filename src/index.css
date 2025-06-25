@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+table {
+  width: 75%;
+  border: 1px solid #6b6b6b;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-size: 1rem;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.05);
+  background: #fff;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+  border: 1px solid #6b6b6b;
+  transition: background 0.3s;
+}
+
+th {
+  background: #004085;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+tr:hover td {
+  background: #f3f7fa;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Ja vajag, pievieno apaļus stūrus tikai tabulas augšai un apakšai */
+table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+.nuka-container img{ 
+  width: 100%;
+}

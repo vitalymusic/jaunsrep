@@ -1,0 +1,26 @@
+.card{
+        padding: 20px;
+        border:2px solid green;
+        border-radius: 10px;
+        max-width: 200px;
+        
+    img{
+       width: 100%; 
+    }
+    h3{
+        text-align: center;
+        font-size: 2rem;
+    }
+    p{
+          text-align: justify;
+        font-size: 1rem;
+    }
+}
+
+.red{
+    background-color: rgba(180, 0, 0, 0.698);
+}
+
+.green{
+     background-color: rgba(0, 180, 36, 0.698);
+}
